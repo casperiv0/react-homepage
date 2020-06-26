@@ -1,0 +1,58 @@
+.contact-us {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  width: 80%;
+  height: 50%;
+}
+
+.contact-container h1 {
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  font-size: var(--section-fs);
+}
+
+.contact-container form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+
+.form-input {
+  color: white;
+  outline: none;
+  font-size: 20px;
+  margin-top: 10px;
+  border: 1px solid var(--golder-color);
+  padding: 20px;
+  background-color: var(--bg);
+}
+
+.contact-btn {
+  text-transform: uppercase;
+  align-self: center;
+  width: 20%;
+  padding: 20px;
+  color: white;
+  background: none;
+  font-size: 20px;
+  border: 1px solid white;
+  cursor: pointer;
+  outline: none;
+}
+
+.contact-btn:hover {
+  border-color: var(--golder-color);
+}

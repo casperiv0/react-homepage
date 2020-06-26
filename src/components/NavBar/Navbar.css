@@ -1,0 +1,26 @@
+nav.nav-bar {
+  background-color: var(--bg);
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  height: 60px;
+  justify-content: space-around;
+}
+
+.nav-icon a {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--golder-color);
+  text-decoration: none;
+}
+
+.nav-link {
+  position: relative;
+  font-family: serif;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 20px;
+}

@@ -1,0 +1,40 @@
+.welcome-section {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-text-container {
+  width: 70%;
+  text-align: center;
+}
+
+.welcome-text-container h1 {
+  padding-top: 10px;
+  font-weight: normal;
+  font-size: var(--section-fs);
+  color: white;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.welcome-text-container p {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.read-more-btn {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px;
+  border: 2px solid white;
+  transition: border 0.2s;
+}
+
+.read-more-btn:hover {
+  border-color: var(--golder-color);
+}

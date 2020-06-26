@@ -1,0 +1,45 @@
+.banner {
+  --banner-fs: 30px;
+  width: 100%;
+  height: 80vh;
+  background: url('/img/camera.jpg') no-repeat;
+}
+
+.banner-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text-container {
+  border-top: 2px solid var(--golder-color);
+  border-bottom: 2px solid var(--golder-color);
+  padding: 30px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.banner-text-container h1 {
+  font-weight: normal;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 25px;
+  padding-bottom: 10px;
+  font-size: var(--banner-fs);
+}
+
+.banner-text-container p {
+  text-transform: uppercase;
+  color: white;
+}
+
+@media (min-width: 1000px) {
+  .banner {
+    background-size: cover;
+    background-position: center;
+    --banner-fs: 60px;
+  }
+}

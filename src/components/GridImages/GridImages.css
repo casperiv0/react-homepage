@@ -1,0 +1,52 @@
+.grid-images {
+  height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.grid-text h1 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.item-1 {
+  background: url('/img/hiker.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.item-2 {
+  background: url('/img/forest.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.item-3 {
+  background: url('/img/boat.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.item-4 {
+  background: url('/img/wedding.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 1000px) {
+  .grid-images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
