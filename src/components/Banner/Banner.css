@@ -2,7 +2,7 @@
   --banner-fs: 30px;
   width: 100%;
   height: 80vh;
-  background: url('/img/camera.jpg') no-repeat;
+  background: url("../../img/camera.jpg") no-repeat;
 }
 
 .banner-container {

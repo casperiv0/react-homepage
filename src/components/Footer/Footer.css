@@ -1,5 +1,5 @@
 .footer {
-  background: url('/img/footer.jpg') no-repeat;
+  background: url('../../img/footer.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -45,7 +45,7 @@
   margin-right: 20px;
   font-size: 20px;
   padding: 20px;
-  border: 1px solid white;
+  border: 1.5px solid white;
   background: none;
   color: white;
   text-transform: uppercase;

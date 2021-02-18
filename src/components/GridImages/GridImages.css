@@ -22,25 +22,25 @@
 }
 
 .item-1 {
-  background: url('/img/hiker.jpg') no-repeat;
+  background: url('../../img/hiker.jpg') no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .item-2 {
-  background: url('/img/forest.png') no-repeat;
+  background: url('../../img/forest.png') no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .item-3 {
-  background: url('/img/boat.jpg') no-repeat;
+  background: url('../../img/boat.jpg') no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .item-4 {
-  background: url('/img/wedding.jpg') no-repeat;
+  background: url('../../img/wedding.jpg') no-repeat;
   background-position: center;
   background-size: cover;
 }
